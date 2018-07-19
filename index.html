@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>陶志是逗逼</title>
+    <style>
+        * {
+            margin: 0;
+        }
+
+        html {
+            height: 100%;
+            background: #eee;
+        }
+
+        body {
+            height: 100%;
+            width: 100%;
+        }
+
+        .case {
+            height: 100%;
+            overflow: scroll;
+        }
+
+        .blank {
+            background: rgba(0, 0, 0, .3);
+            height: 100%;
+            width: 100%;
+            text-align: center;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+            display: none;
+        }
+
+        .blank.on {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="case">
+        <button class="blank-on" id="blankOn">blank-on</button>
+        <p>这样写就行了</p>
+        <p>这样写就行了</p>
+        <p>这样写就行了</p>
+        <p>这样写就行了</p>
+        <p>这样写就行了</p>
+        <p>这样写就行了</p>
+        <p>这样写就行了</p>
+        <p>这样写就行了</p>
+        <p>这样写就行了</p>
+        <p>这样写就行了</p>
+        <p>这样写就行了</p>
+        <p>这样写就行了</p>
+        <p>这样写就行了</p>
+        <p>这样写就行了</p>
+        <p>这样写就行了</p>
+        <p>这样写就行了</p>
+        <p>这样写就行了</p>
+        <p>这样写就行了</p>
+        <p>这样写就行了</p>
+        <p>这样写就行了</p>
+        <p>这样写就行了</p>
+        <p>这样写就行了</p>
+        <p>这样写就行了</p>
+        <p>这样写就行了</p>
+        <p>这样写就行了</p>
+        <p>这样写就行了</p>
+        <p>这样写就行了</p>
+        <p>这样写就行了</p>
+        <p>这样写就行了</p>
+        <p>这样写就行了</p>
+        <p>这样写就行了</p>
+        <p>这样写就行了</p>
+        <p>这样写就行了</p>
+        <p>这样写就行了</p>
+        <p>这样写就行了</p>
+        <p>这样写就行了</p>
+        <p>这样写就行了</p>
+        <p>这样写就行了</p>
+        <p>这样写就行了</p>
+        <p>这样写就行了</p>
+        <p>这样写就行了</p>
+        <p>这样写就行了</p>
+        <p>这样写就行了</p>
+        <p>这样写就行了</p>
+    </div>
+    <div class="blank">
+        <p>我是爱你的</p>
+    </div>
+    <script src="./jquery-3.2.0.min.js"></script>
+    <script>
+        $('#blankOn').on('click', function () {
+            $('.blank').addClass('on');
+        })
+    </script>
+</body>
+
+</html>
